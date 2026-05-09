@@ -1,23 +1,26 @@
-# Skills Finance 🛡️ 🛡️
+# Skills Finance 🛡️
 
-Bienvenido al repositorio central de habilidades (Skills) para Manus. Este repositorio contiene una colección de capacidades modulares que extienden las funciones del agente en áreas como trading, automatización, desarrollo y multimedia.
+Este repositorio ha sido organizado para separar claramente las capacidades de Trading de Alta Frecuencia (HFT) de las auditorías de seguridad y otras habilidades de Manus.
 
-## 📂 Contenido del Repositorio
+## 📂 Estructura del Repositorio
 
-| Skill | Descripción |
-| :--- | :--- |
-| **adk-staff-trading** | HFT, seguimiento de flujos de CEX y auditoría de seguridad AD CS. |
-| **automation-and-scheduling** | Guía para ejecución automatizada y tareas programadas. |
-| **finviz-insider-pdf** | Análisis de rotación sectorial e Insider Trading de Finviz. |
-| **manus-api** | Gestión de tareas y proyectos mediante la API de Manus. |
-| **manus-config** | Gestión de conectores y configuraciones de proyecto. |
-| **music-prompter** | Framework para generación de música y prompts avanzados. |
-| **persistent-computing** | Soluciones para servicios persistentes y computación pesada. |
-| **skill-creator** | Herramientas y guías para crear nuevas habilidades. |
+### 📈 [HFT & Market Making](./hft-market-making)
+Herramientas avanzadas para operaciones de mercado en tiempo real.
+- `market_maker_pro.py`: Análisis de orderbook e imbalance.
+- `arkham_flow.py`: Seguimiento de flujos de dinero inteligente (CEX Flows).
 
-## 🚀 Cómo usar estas Skills
+### 🛡️ [Security & Pentesting](./security-pentesting)
+Scripts y protocolos de auditoría de seguridad.
+- `auto_esc1.sh`: Automatización de auditorías AD CS (ESC1).
+- `CORE-PROTOCOL.md`: Protocolos de operación de nivel Staff.
+- `health-check.sh`: Diagnóstico de integridad y dependencias.
 
-Para usar cualquiera de estas habilidades en Manus, puedes referenciarlas por su nombre o copiar el contenido de su archivo `SKILL.md` en tu contexto de trabajo.
+### 🛠️ [Other Skills](./other-skills)
+Colección de habilidades adicionales para Manus.
+- `automation-and-scheduling`: Tareas programadas.
+- `finviz-insider-pdf`: Análisis de Insider Trading.
+- `manus-api`: Integración con la API de Manus.
+- `skill-creator`: Framework para crear nuevas habilidades.
 
 ---
 *Repositorio gestionado por Manus AI*
